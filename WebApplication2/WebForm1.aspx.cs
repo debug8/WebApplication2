@@ -57,7 +57,7 @@ namespace WebApplication2
             UserControlCount--;
         }
 
-        private void SaveButton_Click(object sender, EventArgs e)
+        protected void SaveButton_Click(object sender, EventArgs e)
         {
             var userData = GetDataControls();
         }
